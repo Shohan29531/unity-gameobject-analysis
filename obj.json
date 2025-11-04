@@ -1,0 +1,2492 @@
+{
+    "type": "static",
+    "ObjectName": "DummyGameObject",
+    "Scene": "DontDestroyOnLoad",
+    "Parent": "None",
+    "Level": 0,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0,
+        0,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|OpenAccGenericPlugin"
+}
+{
+    "type": "static",
+    "ObjectName": "IPA_PluginManager",
+    "Scene": "DontDestroyOnLoad",
+    "Parent": "None",
+    "Level": 0,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0,
+        0,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|PluginComponent"
+}
+{
+    "type": "static",
+    "ObjectName": "Directional Light",
+    "Scene": "HelicopterPhysics",
+    "Parent": "None",
+    "Level": 0,
+    "Type": "Light",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0,
+        3,
+        0
+    ],
+    "Rotation": [
+        50,
+        330,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|Light"
+}
+{
+    "type": "static",
+    "ObjectName": "Canvas/Panel/Row - INFO",
+    "Scene": "HelicopterPhysics",
+    "Parent": "Canvas/Panel",
+    "Level": 2,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "UI",
+    "Active": true,
+    "Position": [
+        0,
+        1440,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": false,
+    "Components": "RectTransform|VerticalLayoutGroup"
+}
+{
+    "type": "static",
+    "ObjectName": "Canvas/Panel/Row - Pedal/Text (TMP) - Title",
+    "Scene": "HelicopterPhysics",
+    "Parent": "Canvas/Panel/Row - Pedal",
+    "Level": 3,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "UI",
+    "Active": true,
+    "Position": [
+        0,
+        1440,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": false,
+    "Components": "RectTransform|CanvasRenderer|TextMeshProUGUI"
+}
+{
+    "type": "static",
+    "ObjectName": "Level_Manager/FX_GRP",
+    "Scene": "HelicopterPhysics",
+    "Parent": "Level_Manager",
+    "Level": 1,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0,
+        0,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform"
+}
+{
+    "type": "static",
+    "ObjectName": "Canvas/Panel/Row - Sticky Throttle",
+    "Scene": "HelicopterPhysics",
+    "Parent": "Canvas/Panel",
+    "Level": 2,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "UI",
+    "Active": true,
+    "Position": [
+        0,
+        1440,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": false,
+    "Components": "RectTransform|HorizontalLayoutGroup"
+}
+{
+    "type": "static",
+    "ObjectName": "Canvas/Panel/Row - Pedal/Text (TMP) - Content",
+    "Scene": "HelicopterPhysics",
+    "Parent": "Canvas/Panel/Row - Pedal",
+    "Level": 3,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "UI",
+    "Active": true,
+    "Position": [
+        0,
+        1440,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": false,
+    "Components": "RectTransform|CanvasRenderer|TextMeshProUGUI"
+}
+{
+    "type": "static",
+    "ObjectName": "Level_Manager/Audio_GRP",
+    "Scene": "HelicopterPhysics",
+    "Parent": "Level_Manager",
+    "Level": 1,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0,
+        0,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform"
+}
+{
+    "type": "static",
+    "ObjectName": "Canvas/Panel/Row - Raw Throttle",
+    "Scene": "HelicopterPhysics",
+    "Parent": "Canvas/Panel",
+    "Level": 2,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "UI",
+    "Active": true,
+    "Position": [
+        0,
+        1440,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": false,
+    "Components": "RectTransform|HorizontalLayoutGroup"
+}
+{
+    "type": "static",
+    "ObjectName": "Canvas/Panel/Row - Raw Throttle/Text (TMP) - Content",
+    "Scene": "HelicopterPhysics",
+    "Parent": "Canvas/Panel/Row - Raw Throttle",
+    "Level": 3,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "UI",
+    "Active": true,
+    "Position": [
+        0,
+        1440,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": false,
+    "Components": "RectTransform|CanvasRenderer|TextMeshProUGUI"
+}
+{
+    "type": "static",
+    "ObjectName": "Level_Manager/PostProcessing",
+    "Scene": "HelicopterPhysics",
+    "Parent": "Level_Manager",
+    "Level": 1,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "PostProcessing",
+    "Active": true,
+    "Position": [
+        0,
+        0,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|PostProcessVolume"
+}
+{
+    "type": "static",
+    "ObjectName": "Level_Manager/Lighting_GRP",
+    "Scene": "HelicopterPhysics",
+    "Parent": "Level_Manager",
+    "Level": 1,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0,
+        0,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform"
+}
+{
+    "type": "static",
+    "ObjectName": "Canvas/Panel/Row - Sticky Throttle/Text (TMP) - Title",
+    "Scene": "HelicopterPhysics",
+    "Parent": "Canvas/Panel/Row - Sticky Throttle",
+    "Level": 3,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "UI",
+    "Active": true,
+    "Position": [
+        0,
+        1440,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": false,
+    "Components": "RectTransform|CanvasRenderer|TextMeshProUGUI"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Graphics_Group",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2",
+    "Level": 1,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.81,
+        0.89,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Audio Group",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2",
+    "Level": 1,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.81,
+        0.89,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform"
+}
+{
+    "type": "static",
+    "ObjectName": "Canvas/Panel/Row - INFO/Text (TMP) - Content",
+    "Scene": "HelicopterPhysics",
+    "Parent": "Canvas/Panel/Row - INFO",
+    "Level": 3,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "UI",
+    "Active": true,
+    "Position": [
+        0,
+        1440,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": false,
+    "Components": "RectTransform|CanvasRenderer|TextMeshProUGUI"
+}
+{
+    "type": "static",
+    "ObjectName": "Level_Manager/Geo_GRP",
+    "Scene": "HelicopterPhysics",
+    "Parent": "Level_Manager",
+    "Level": 1,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0,
+        0,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform"
+}
+{
+    "type": "static",
+    "ObjectName": "Canvas",
+    "Scene": "HelicopterPhysics",
+    "Parent": "None",
+    "Level": 0,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "UI",
+    "Active": true,
+    "Position": [
+        1720,
+        720,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1.333333,
+        1.333333,
+        1.333333
+    ],
+    "InView": false,
+    "Components": "RectTransform|Canvas|CanvasScaler|GraphicRaycaster"
+}
+{
+    "type": "static",
+    "ObjectName": "Level_Manager",
+    "Scene": "HelicopterPhysics",
+    "Parent": "None",
+    "Level": 0,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0,
+        0,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform"
+}
+{
+    "type": "static",
+    "ObjectName": "Canvas/Panel/Row - Cyclic/Text (TMP) - Content",
+    "Scene": "HelicopterPhysics",
+    "Parent": "Canvas/Panel/Row - Cyclic",
+    "Level": 3,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "UI",
+    "Active": true,
+    "Position": [
+        0,
+        1440,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": false,
+    "Components": "RectTransform|CanvasRenderer|TextMeshProUGUI"
+}
+{
+    "type": "static",
+    "ObjectName": "Canvas/Panel/Row - Cyclic",
+    "Scene": "HelicopterPhysics",
+    "Parent": "Canvas/Panel",
+    "Level": 2,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "UI",
+    "Active": true,
+    "Position": [
+        0,
+        1440,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": false,
+    "Components": "RectTransform|HorizontalLayoutGroup"
+}
+{
+    "type": "static",
+    "ObjectName": "Canvas/Panel/Row - Collective/Text (TMP) - Content",
+    "Scene": "HelicopterPhysics",
+    "Parent": "Canvas/Panel/Row - Collective",
+    "Level": 3,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "UI",
+    "Active": true,
+    "Position": [
+        0,
+        1440,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": false,
+    "Components": "RectTransform|CanvasRenderer|TextMeshProUGUI"
+}
+{
+    "type": "static",
+    "ObjectName": "HeliPad_001",
+    "Scene": "HelicopterPhysics",
+    "Parent": "None",
+    "Level": 0,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        1.55,
+        2.701342E-17,
+        -0.67
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "Canvas/Panel/Row - Cyclic/Text (TMP) - Title",
+    "Scene": "HelicopterPhysics",
+    "Parent": "Canvas/Panel/Row - Cyclic",
+    "Level": 3,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "UI",
+    "Active": true,
+    "Position": [
+        0,
+        1440,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": false,
+    "Components": "RectTransform|CanvasRenderer|TextMeshProUGUI"
+}
+{
+    "type": "static",
+    "ObjectName": "Canvas/Panel/Row - Sticky Collective/Text (TMP) - Content",
+    "Scene": "HelicopterPhysics",
+    "Parent": "Canvas/Panel/Row - Sticky Collective",
+    "Level": 3,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "UI",
+    "Active": true,
+    "Position": [
+        0,
+        1440,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": false,
+    "Components": "RectTransform|CanvasRenderer|TextMeshProUGUI"
+}
+{
+    "type": "static",
+    "ObjectName": "Canvas/Panel/Row - Pedal",
+    "Scene": "HelicopterPhysics",
+    "Parent": "Canvas/Panel",
+    "Level": 2,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "UI",
+    "Active": true,
+    "Position": [
+        0,
+        1440,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": false,
+    "Components": "RectTransform|HorizontalLayoutGroup"
+}
+{
+    "type": "static",
+    "ObjectName": "Main Camera",
+    "Scene": "HelicopterPhysics",
+    "Parent": "None",
+    "Level": 0,
+    "Type": "Camera",
+    "Tag": "MainCamera",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        -9.660627,
+        14.89525,
+        -15.27635
+    ],
+    "Rotation": [
+        35.06504,
+        35.03194,
+        -1.356023E-05
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": false,
+    "Components": "Transform|Camera|AudioListener|PostProcessLayer|HeliFollowCamera|AdvancedHeliCamera"
+}
+{
+    "type": "static",
+    "ObjectName": "Canvas/Panel/Row - Sticky Collective",
+    "Scene": "HelicopterPhysics",
+    "Parent": "Canvas/Panel",
+    "Level": 2,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "UI",
+    "Active": true,
+    "Position": [
+        0,
+        1440,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": false,
+    "Components": "RectTransform|HorizontalLayoutGroup"
+}
+{
+    "type": "static",
+    "ObjectName": "Canvas/Panel/Row - Sticky Collective/Text (TMP) - Title",
+    "Scene": "HelicopterPhysics",
+    "Parent": "Canvas/Panel/Row - Sticky Collective",
+    "Level": 3,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "UI",
+    "Active": true,
+    "Position": [
+        0,
+        1440,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": false,
+    "Components": "RectTransform|CanvasRenderer|TextMeshProUGUI"
+}
+{
+    "type": "static",
+    "ObjectName": "Plane",
+    "Scene": "HelicopterPhysics",
+    "Parent": "None",
+    "Level": 0,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0,
+        0,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        100,
+        100,
+        100
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer|MeshCollider"
+}
+{
+    "type": "static",
+    "ObjectName": "EventSystem",
+    "Scene": "HelicopterPhysics",
+    "Parent": "None",
+    "Level": 0,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0,
+        0,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|EventSystem|StandaloneInputModule"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/COG",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2",
+    "Level": 1,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.81,
+        1.668,
+        -0.185
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform"
+}
+{
+    "type": "static",
+    "ObjectName": "Canvas/Panel/Row - Raw Throttle/Text (TMP) - Title",
+    "Scene": "HelicopterPhysics",
+    "Parent": "Canvas/Panel/Row - Raw Throttle",
+    "Level": 3,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "UI",
+    "Active": true,
+    "Position": [
+        0,
+        1440,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": false,
+    "Components": "RectTransform|CanvasRenderer|TextMeshProUGUI"
+}
+{
+    "type": "static",
+    "ObjectName": "Canvas/Panel/Row - Sticky Throttle/Text (TMP) - Content",
+    "Scene": "HelicopterPhysics",
+    "Parent": "Canvas/Panel/Row - Sticky Throttle",
+    "Level": 3,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "UI",
+    "Active": true,
+    "Position": [
+        0,
+        1440,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": false,
+    "Components": "RectTransform|CanvasRenderer|TextMeshProUGUI"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Collider Group",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2",
+    "Level": 1,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.81,
+        0.89,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform"
+}
+{
+    "type": "static",
+    "ObjectName": "Canvas/Panel/Row - INFO/Text (TMP) - Title",
+    "Scene": "HelicopterPhysics",
+    "Parent": "Canvas/Panel/Row - INFO",
+    "Level": 3,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "UI",
+    "Active": true,
+    "Position": [
+        0,
+        1440,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": false,
+    "Components": "RectTransform|CanvasRenderer|TextMeshProUGUI"
+}
+{
+    "type": "static",
+    "ObjectName": "Canvas/Panel",
+    "Scene": "HelicopterPhysics",
+    "Parent": "Canvas",
+    "Level": 1,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "UI",
+    "Active": true,
+    "Position": [
+        0,
+        1440,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": false,
+    "Components": "RectTransform|CanvasRenderer|Image|VerticalLayoutGroup|ContentSizeFitter|GaguePanel"
+}
+{
+    "type": "static",
+    "ObjectName": "Canvas/Panel/Row - Collective/Text (TMP) - Title",
+    "Scene": "HelicopterPhysics",
+    "Parent": "Canvas/Panel/Row - Collective",
+    "Level": 3,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "UI",
+    "Active": true,
+    "Position": [
+        0,
+        1440,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": false,
+    "Components": "RectTransform|CanvasRenderer|TextMeshProUGUI"
+}
+{
+    "type": "static",
+    "ObjectName": "Canvas/Panel/Row - Collective",
+    "Scene": "HelicopterPhysics",
+    "Parent": "Canvas/Panel",
+    "Level": 2,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "UI",
+    "Active": true,
+    "Position": [
+        0,
+        1440,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": false,
+    "Components": "RectTransform|HorizontalLayoutGroup"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Rotors_Group/Back Rotor - Mast",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Rotors_Group",
+    "Level": 2,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.7428635,
+        2.062007,
+        -2.236743
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|HeliTailRotor|HeliRotorBlur"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Rotors_Group/Main Rotor - Mast",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Rotors_Group",
+    "Level": 2,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.8091307,
+        3.024364,
+        -0.2966479
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|HeliMainRotor|HeliRotorBlur"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Graphics_Group/R22_Body_Gruop/R22_Body_RDoor_Geo/R22_Body_RDoorGlass_Geo",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Graphics_Group/R22_Body_Gruop/R22_Body_RDoor_Geo",
+    "Level": 4,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.81,
+        0.89,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Graphics_Group/R22_Body_Gruop/R22_Body_RDoor_Geo",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Graphics_Group/R22_Body_Gruop",
+    "Level": 3,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        1.412661,
+        1.795908,
+        0.3115103
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Graphics_Group/R22_Cockpit_Gruop/R22_Cockpit_Chairs_Geo",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Graphics_Group/R22_Cockpit_Gruop",
+    "Level": 3,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.8030369,
+        1.186632,
+        0.3359948
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Graphics_Group/R22_Body_Gruop/R22_Body_Windshield_Geo",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Graphics_Group/R22_Body_Gruop",
+    "Level": 3,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.81,
+        0.89,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Graphics_Group/R22_Body_Gruop",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Graphics_Group",
+    "Level": 2,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.8033293,
+        1.975532,
+        -0.692852
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Graphics_Group/R22_Body_Gruop/R22_Body_Geo",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Graphics_Group/R22_Body_Gruop",
+    "Level": 3,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.81,
+        0.89,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Graphics_Group/R22_Body_Gruop/R22_Body_LDoor_Geo/R22_Body_LDoorGlass_Geo",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Graphics_Group/R22_Body_Gruop/R22_Body_LDoor_Geo",
+    "Level": 4,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.8099999,
+        0.89,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Graphics_Group/R22_Body_Gruop/R22_Body_LDoor_Geo",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Graphics_Group/R22_Body_Gruop",
+    "Level": 3,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.1795917,
+        1.812025,
+        0.3060833
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Graphics_Group/R22_Cockpit_Gruop/R22_Cockpit_LLever02_Geo",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Graphics_Group/R22_Cockpit_Gruop",
+    "Level": 3,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.5286129,
+        1.21805,
+        0.6593961
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Graphics_Group/R22_Cockpit_Gruop/R22_Cockpit_LLever01_Geo",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Graphics_Group/R22_Cockpit_Gruop",
+    "Level": 3,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.6474077,
+        1.21757,
+        0.6593534
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Graphics_Group/R22_Cockpit_Gruop/R22_Cockpit_Needle02_Geo",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Graphics_Group/R22_Cockpit_Gruop",
+    "Level": 3,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.9479453,
+        1.689035,
+        0.781826
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Graphics_Group/R22_Cockpit_Gruop/R22_Cockpit_Needle01_Geo",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Graphics_Group/R22_Cockpit_Gruop",
+    "Level": 3,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.6605767,
+        1.688679,
+        0.7816658
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Graphics_Group/R22_Cockpit_Gruop/R22_Cockpit_Handle01_Geo",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Graphics_Group/R22_Cockpit_Gruop",
+    "Level": 3,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.8032417,
+        1.763097,
+        0.3818435
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Graphics_Group/R22_Cockpit_Gruop",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Graphics_Group",
+    "Level": 2,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.8033293,
+        1.634419,
+        0.3359947
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Graphics_Group/R22_Body_Gruop/R22_Body_LDoor_Geo/R22_Cockpit_LDoor_Geo",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Graphics_Group/R22_Body_Gruop/R22_Body_LDoor_Geo",
+    "Level": 4,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.2675518,
+        1.616479,
+        0.1072924
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Graphics_Group/R22_Cockpit_Gruop/R22_Cockpit_Hanlde02_Geo",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Graphics_Group/R22_Cockpit_Gruop",
+    "Level": 3,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.8030369,
+        1.349811,
+        0.3897181
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Graphics_Group/R22_Cockpit_Gruop/R22_Cockpit_RLever01_Geo",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Graphics_Group/R22_Cockpit_Gruop",
+    "Level": 3,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.9584871,
+        1.216834,
+        0.659645
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Graphics_Group/R22_Body_Gruop/R22_Body_RDoor_Geo/R22_Cockpit_RDoor_Geo",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Graphics_Group/R22_Body_Gruop/R22_Body_RDoor_Geo",
+    "Level": 4,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        1.339107,
+        1.616581,
+        0.1072927
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2",
+    "Scene": "HelicopterPhysics",
+    "Parent": "None",
+    "Level": 0,
+    "Type": "PhysicsBody",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.81,
+        0.89,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|Rigidbody|HeliController|InputController|XboxHeliInput|KeyboardHeliInput|HelicopterCharacteristics"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Graphics_Group/R22_Cockpit_Gruop/R22_Cockpit_RLever02_Geo",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Graphics_Group/R22_Cockpit_Gruop",
+    "Level": 3,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        1.077346,
+        1.217817,
+        0.6584344
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Graphics_Group/R22_Cockpit_Gruop/R22_Cockpit_Needle04_Geo",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Graphics_Group/R22_Cockpit_Gruop",
+    "Level": 3,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.7461387,
+        1.524055,
+        0.7218093
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Graphics_Group/R22_Cockpit_Gruop/R22_Cockpit_Needle03_Geo",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Graphics_Group/R22_Cockpit_Gruop",
+    "Level": 3,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.7078457,
+        1.596321,
+        0.7688535
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Graphics_Group/R22_Cockpit_Gruop/R22_Cockpit_PannelButtons_Geo",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Graphics_Group/R22_Cockpit_Gruop",
+    "Level": 3,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.8057106,
+        1.586147,
+        0.64317
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Graphics_Group/R22_Cockpit_Gruop/R22_Cockpit_Needle05_Geo",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Graphics_Group/R22_Cockpit_Gruop",
+    "Level": 3,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.7461387,
+        1.51759,
+        0.6547044
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Rotors_Group/Main Rotor - Mast/R22_Mechanical_RBlade_Geo",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Rotors_Group/Main Rotor - Mast",
+    "Level": 3,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.933443,
+        3.161919,
+        -0.2992364
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|SkinnedMeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Graphics_Group/R22_Mechanical_Group/R22_Mechanical_Motor_Geo",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Graphics_Group/R22_Mechanical_Group",
+    "Level": 3,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.8033293,
+        0.8823348,
+        0.2437962
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Rotors_Group/Back Rotor - Mast/R22_Mechanical_TailMast_Geo",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Rotors_Group/Back Rotor - Mast",
+    "Level": 3,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.7428635,
+        2.062007,
+        -2.236743
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Rotors_Group/Back Rotor - Mast/R22_Mechanical_RTailBlade_Geo",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Rotors_Group/Back Rotor - Mast",
+    "Level": 3,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.5423259,
+        2.084397,
+        -2.235969
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Rotors_Group/Main Rotor - Mast/R22_Mechanical_LBlade_Geo",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Rotors_Group/Main Rotor - Mast",
+    "Level": 3,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.684162,
+        3.161919,
+        -0.2936752
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|SkinnedMeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Graphics_Group/R22_Mechanical_Group",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Graphics_Group",
+    "Level": 2,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.81,
+        2.075433,
+        -0.617886
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Rotors_Group/Main Rotor - Mast/R22_Mechanical_Mast_Geo",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Rotors_Group/Main Rotor - Mast",
+    "Level": 3,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.8091307,
+        3.024364,
+        -0.2966479
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Rotors_Group/Back Rotor - Mast/R22_Mechanical_LTailBlade_Geo",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Rotors_Group/Back Rotor - Mast",
+    "Level": 3,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.5423259,
+        2.032643,
+        -2.23608
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Graphics_Group/R_22_Blendshapes",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Graphics_Group",
+    "Level": 2,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.81,
+        0.89,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Collider Group/Tail_COL",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Collider Group",
+    "Level": 2,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.81,
+        2.004,
+        -1.535
+    ],
+    "Rotation": [
+        3.681075,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|CapsuleCollider"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Rotors_Group/Back Rotor - Mast/Tail Rotor - Double-side blur quad",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Rotors_Group/Back Rotor - Mast",
+    "Level": 3,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": false,
+    "Position": [
+        0.5368634,
+        2.062007,
+        -2.236743
+    ],
+    "Rotation": [
+        0,
+        270,
+        0
+    ],
+    "Scale": [
+        0.6,
+        0.6,
+        0.6
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Collider Group/L_Skid_COL",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Collider Group",
+    "Level": 2,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.06800002,
+        0.923,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|CapsuleCollider"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Collider Group/Fuselage_COL",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Collider Group",
+    "Level": 2,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.81,
+        1.675,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|CapsuleCollider"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Engines/Main Engine",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Engines",
+    "Level": 2,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.81,
+        0.89,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|HeliEngine"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Collider Group/Mast_COL",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Collider Group",
+    "Level": 2,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.81,
+        2.62,
+        -0.29
+    ],
+    "Rotation": [
+        353.2427,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|CapsuleCollider"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Camera LookAt Target",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2",
+    "Level": 1,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.81,
+        2.47,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Rotors_Group/Main Rotor - Mast/Main Rotor -  Blur Quad",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Rotors_Group/Main Rotor - Mast",
+    "Level": 3,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.8091307,
+        3.153364,
+        -0.2966479
+    ],
+    "Rotation": [
+        90,
+        0,
+        0
+    ],
+    "Scale": [
+        4.3,
+        4.3,
+        4.3
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Rotors_Group",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2",
+    "Level": 1,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.81,
+        0.89,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|HeliRotorController"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Rotors_Group/Main Rotor - Mast/Main Rotor -  Double-side blur quad",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Rotors_Group/Main Rotor - Mast",
+    "Level": 3,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.8091307,
+        3.153364,
+        -0.2966479
+    ],
+    "Rotation": [
+        270,
+        0,
+        0
+    ],
+    "Scale": [
+        4.3,
+        4.3,
+        4.3
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Rotors_Group/Back Rotor - Mast/Tail Rotor - Blur quad",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Rotors_Group/Back Rotor - Mast",
+    "Level": 3,
+    "Type": "Mesh",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": false,
+    "Position": [
+        0.5368634,
+        2.062007,
+        -2.236743
+    ],
+    "Rotation": [
+        0,
+        90,
+        0
+    ],
+    "Scale": [
+        0.6,
+        0.6,
+        0.6
+    ],
+    "InView": true,
+    "Components": "Transform|MeshFilter|MeshRenderer"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Engines",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2",
+    "Level": 1,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0.81,
+        0.89,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform"
+}
+{
+    "type": "static",
+    "ObjectName": "R22_Helicopter_V2/Collider Group/R_Skid_COL",
+    "Scene": "HelicopterPhysics",
+    "Parent": "R22_Helicopter_V2/Collider Group",
+    "Level": 2,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        1.541,
+        0.923,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|CapsuleCollider"
+}
+{
+    "type": "static",
+    "ObjectName": "AnalyticsContainer",
+    "Scene": "DontDestroyOnLoad",
+    "Parent": "None",
+    "Level": 0,
+    "Type": "Empty",
+    "Tag": "Untagged",
+    "Layer": "Default",
+    "Active": true,
+    "Position": [
+        0,
+        0,
+        0
+    ],
+    "Rotation": [
+        0,
+        0,
+        0
+    ],
+    "Scale": [
+        1,
+        1,
+        1
+    ],
+    "InView": true,
+    "Components": "Transform|AnalyticsLifetime"
+}
