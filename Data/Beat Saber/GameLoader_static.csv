@@ -1,0 +1,5 @@
+﻿ObjectName,Scene,Parent,Level,Type,Layer,Active,Position,Rotation,Scale,InView,HasRenderer,HasCollider,Components
+GameLoader,GameLoader,None,0,Empty,Default,True,"[0.000,0.000,7.000]","[0.000,0.000,0.000]","[1.000,1.000,1.000]",False,False,False,Transform|GameLoader
+AppInitCamera,GameLoader,None,0,Camera,Default,True,"[0.000,0.000,0.000]","[0.000,0.000,0.000]","[1.000,1.000,1.000]",False,False,False,Transform|Camera|AudioListener
+GameLoader,GameLoader,None,0,Empty,Default,True,"[0.000,0.000,7.000]","[0.000,0.000,0.000]","[1.000,1.000,1.000]",False,False,False,Transform|GameLoader
+AppInitCamera,GameLoader,None,0,Camera,Default,True,"[0.000,0.000,0.000]","[0.000,0.000,0.000]","[1.000,1.000,1.000]",False,False,False,Transform|Camera|AudioListener

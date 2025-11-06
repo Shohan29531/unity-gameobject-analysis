@@ -1,57 +1,74 @@
-import json
+import pandas as pd
+from pathlib import Path
 
-STATIC_FILE = "static_metadata.jsonl"
-
-def load_jsonl(path):
-    """Yield each JSON object from a newline-delimited JSON file."""
-    with open(path, "r", encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
-            if not line:
-                continue
-            try:
-                yield json.loads(line)
-            except json.JSONDecodeError as e:
-                print(f"⚠️ Skipping malformed line: {e}")
-
-def find_matching(criteria_fn, show_full=False):
+def analyze_static_csv(input_file="../Data/Slime Rancher/worldGenerated_static.csv"):
     """
-    Print and count entries that satisfy the criteria.
-    If show_full=True, prints the full JSON object.
+    Analyze how many objects have colliders and/or renderers,
+    focusing on those that are InView=True and Active=True.
+    Also reports how many are visible + interactive (have collider or renderer).
     """
-    matches = []
-    for obj in load_jsonl(STATIC_FILE):
-        if criteria_fn(obj):
-            matches.append(obj)
+    # --- Validate path ---
+    input_path = Path(input_file)
+    if not input_path.exists():
+        raise FileNotFoundError(f"❌ File not found: {input_path.resolve()}")
 
-    print(f"\n✅ Found {len(matches)} matching GameObjects\n")
+    print(f"📂 Reading file: {input_path.resolve()}")
+    df = pd.read_csv(input_path)
+    df.columns = [c.strip() for c in df.columns]
 
-    for i, obj in enumerate(matches, 1):
-        if show_full:
-            # print entire JSON record
-            print(json.dumps(obj, indent=2))
+    # --- Normalize boolean columns ---
+    for col in ["HasCollider", "HasRenderer", "InView", "Active"]:
+        if col in df.columns:
+            df[col] = df[col].astype(str).str.lower().isin(["true", "1", "yes"])
         else:
-            # print selected summary fields
-            print(f"{i:03d}. {obj.get('ObjectName')} "
-                  f"(Type={obj.get('Type')}, Level={obj.get('Level')}, Scene={obj.get('Scene')})")
+            raise KeyError(f"Missing column: {col}")
 
-    return matches
+    # --- Filter visible & active ---
+    visible_active = df[(df["InView"]) & (df["Active"])]
+
+    print(f"\n🔍 Considering only objects that are InView=True and Active=True")
+    print(f"Filtered objects: {len(visible_active)} / {len(df)} total")
+
+    # --- Logical groups ---
+    both = visible_active[visible_active["HasCollider"] & visible_active["HasRenderer"]]
+    either = visible_active[visible_active["HasCollider"] | visible_active["HasRenderer"]]
+    only_collider = visible_active[visible_active["HasCollider"] & ~visible_active["HasRenderer"]]
+    only_renderer = visible_active[visible_active["HasRenderer"] & ~visible_active["HasCollider"]]
+    neither = visible_active[~(visible_active["HasCollider"] | visible_active["HasRenderer"])]
+
+    # --- New group: has collider OR renderer, AND in-view AND active ---
+    visible_and_interactive = df[
+        (df["InView"]) & (df["Active"]) & (df["HasCollider"] | df["HasRenderer"])
+    ]
+
+    # --- Print summary ---
+    print("\n📊 Collider / Renderer Summary (Visible & Active only)")
+    print("------------------------------------------------------")
+    print(f"Visible + Active objects     : {len(visible_active)}")
+    print(f"Has BOTH collider & renderer : {len(both)}")
+    print(f"Has EITHER collider/renderer : {len(either)}")
+    print(f"Has ONLY collider            : {len(only_collider)}")
+    print(f"Has ONLY renderer            : {len(only_renderer)}")
+    print(f"Has NEITHER                  : {len(neither)}")
+
+    print("\n✨ Visible + Interactive (InView & Active & HasCollider/Renderer):")
+    print(f"Count : {len(visible_and_interactive)}")
+
+    # --- Optional: save that subset ---
+    visible_and_interactive.to_csv(input_path.parent / "visible_and_interactive.csv", index=False)
+
+    return {
+        "total": len(df),
+        "visible_active": len(visible_active),
+        "both": len(both),
+        "either": len(either),
+        "only_collider": len(only_collider),
+        "only_renderer": len(only_renderer),
+        "neither": len(neither),
+        "visible_and_interactive": len(visible_and_interactive)
+    }
 
 
-# -------------------------
-# Example criteria function
-# -------------------------
-def is_low_level_physicsbody(obj):
-    """
-    Example filter:
-    include GameObjects up to level 2 (inclusive)
-    and only those whose Type == 'PhysicsBody'
-    """
-    return (obj.get("Level", 999) <= 1 and obj.get("Type") == "PhysicsBody" 
-            and obj.get("InView") == True and obj.get("Active") == True)
-
-
-# Run the example
 if __name__ == "__main__":
-    # Change show_full=True to see all fields printed
-    find_matching(is_low_level_physicsbody, show_full=False)
+    stats = analyze_static_csv()
+    # print("\nSummary dict:", stats)

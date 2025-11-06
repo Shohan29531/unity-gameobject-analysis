@@ -1,0 +1,2 @@
+﻿ObjectName,Scene,Parent,Level,Type,Layer,Active,Position,Rotation,Scale,InView,HasRenderer,HasCollider,Components
+Camera,EmptyTransition,None,0,Camera,Default,True,"[0.000,0.000,0.000]","[0.000,0.000,0.000]","[1.000,1.000,1.000]",False,False,False,Transform|Camera|AudioListener

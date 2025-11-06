@@ -1,0 +1,4 @@
+﻿ObjectName,Scene,Parent,Level,Type,Layer,Active,Position,Rotation,Scale,InView,HasRenderer,HasCollider,Components
+TitleUI,StandaloneStart,None,0,Empty,UI,True,"[1720.000,720.000,0.000]","[0.000,0.000,0.000]","[1.546,1.546,1.546]",False,False,False,RectTransform|Canvas|CanvasScaler
+TitleUI/TitleImage,StandaloneStart,TitleUI,1,Empty,UI,True,"[1720.000,1111.963,0.000]","[0.000,0.000,0.000]","[1.000,1.000,1.000]",False,False,False,RectTransform|CanvasRenderer|Image
+TitleUI/Watermark,StandaloneStart,TitleUI,1,Empty,UI,False,"[1720.000,24.730,0.000]","[0.000,0.000,0.000]","[0.550,0.550,0.550]",False,False,False,RectTransform|CanvasRenderer|XlateText|TextMeshProUGUI|MeshTextStyler

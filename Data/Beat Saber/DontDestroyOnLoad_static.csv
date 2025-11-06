@@ -1,0 +1,8 @@
+﻿ObjectName,Scene,Parent,Level,Type,Layer,Active,Position,Rotation,Scale,InView,HasRenderer,HasCollider,Components
+DummyGameObject,DontDestroyOnLoad,None,0,Empty,Default,True,"[0.000,0.000,0.000]","[0.000,0.000,0.000]","[1.000,1.000,1.000]",False,False,False,Transform|OpenAccGenericPlugin
+IPA_PluginManager,DontDestroyOnLoad,None,0,Empty,Default,True,"[0.000,0.000,0.000]","[0.000,0.000,0.000]","[1.000,1.000,1.000]",False,False,False,Transform|PluginComponent
+ProjectContext(Clone),DontDestroyOnLoad,None,0,Empty,Default,True,"[0.000,0.000,0.000]","[0.000,0.000,0.000]","[1.000,1.000,1.000]",False,False,False,Transform|ProjectContext|ZenjectBinding|GameScenesManager|AppInitSetupInstaller|FileStorageInstaller|AppStaticSettingsInstaller|LocalLeaderboardsInstaller|TimeHelper|ProjectKernel
+DummyGameObject,DontDestroyOnLoad,None,0,Empty,Default,True,"[0.000,0.000,0.000]","[0.000,0.000,0.000]","[1.000,1.000,1.000]",False,False,False,Transform|OpenAccGenericPlugin
+IPA_PluginManager,DontDestroyOnLoad,None,0,Empty,Default,True,"[0.000,0.000,0.000]","[0.000,0.000,0.000]","[1.000,1.000,1.000]",False,False,False,Transform|PluginComponent
+ProjectContext(Clone),DontDestroyOnLoad,None,0,Empty,Default,True,"[0.000,0.000,0.000]","[0.000,0.000,0.000]","[1.000,1.000,1.000]",False,False,False,Transform|ProjectContext|ZenjectBinding|GameScenesManager|AppInitSetupInstaller|FileStorageInstaller|AppStaticSettingsInstaller|LocalLeaderboardsInstaller|TimeHelper|ProjectKernel
+LIV,DontDestroyOnLoad,None,0,Empty,Default,True,"[0.000,0.000,0.000]","[0.000,0.000,0.000]","[1.000,1.000,1.000]",False,False,False,Transform|LIV
