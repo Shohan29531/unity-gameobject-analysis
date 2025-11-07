@@ -1,0 +1,12 @@
+the file contains gameobject information from a Unity game their movement data across frames 
+
+tell me what happens in this clip
+try to describe what the scene looks like, the type of objects in the scene and how they move 
+describe to me like I am a blind person 
+
+do not go into technical details 
+no poetry 
+no dramatic descriptions 
+just plain words to say what happened 
+two paras 
+200 words max
