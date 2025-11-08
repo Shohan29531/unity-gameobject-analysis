@@ -1,12 +1,11 @@
-the file contains gameobject information from a Unity game their movement data across frames 
+The attached file contains gameobject information and their movement data across frames from a Unity game clip.
 
-tell me what happens in this clip
-try to describe what the scene looks like, the type of objects in the scene and how they move 
-describe to me like I am a blind person 
+Tell me what happens in this clip like you are an expert in such tasks.
+Try to describe what the scene looks like, the type of objects in the scene and how they move across frames. 
+Describe to me like I am a blind person. 
 
-do not go into technical details 
-no poetry 
-no dramatic descriptions 
-just plain words to say what happened 
-two paras 
+AVOID technical details 
+No poetry or dramatic descriptions 
+Just plain words to say what happened 
+Exactly two paras 
 200 words max
