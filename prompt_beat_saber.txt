@@ -1,0 +1,16 @@
+The attached files contains gameobject information and their movement data across frames from a Unity game clip.
+
+Here is a description of the game: 
+Beat Saber is a rhythm-based virtual reality (VR) game where players use two glowing sabers — one red and one blue — to slash incoming blocks that fly toward them in sync with music. Each block corresponds to a beat in the song and has a directional arrow showing which way to cut (up, down, left, right, or diagonally). The color of the block indicates which saber to use. Players must also dodge obstacles (like walls) by leaning or sidestepping. The experience feels like a mix of dancing, swordplay, and rhythm coordination.
+
+Tell me what happens in this clip like you are an expert in such tasks.
+Try to describe what the scene looks like, the type of objects in the scene and how they move across frames, their interactions, collisions of significant objects. 
+
+
+Describe to me like I am a blind person. 
+
+AVOID technical details 
+No poetry or dramatic descriptions 
+Just plain words to say what happened 
+Exactly two paras 
+200 words max
