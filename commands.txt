@@ -1,0 +1,156 @@
+https://drive.google.com/file/d/1qJDYn3Ibpquu4ffYoQmVjg1YCbr2JQep
+
+
+ssh -J mqi5127@ssh.ist.psu.edu mqi5127@i4-l-skb5969-1.ist.psu.edu
+
+
+
+
+python a11y_train.py --config-file /data/projects/Mask2Former/configs/bdd100k/MaskFormer_R50_bdd100k.yaml --num-gpus 4
+
+
+
+python train_with_coco.py --config-file configs/coco/instance-segmentation/maskformer2_R50_bs16_50ep.yaml --num-gpus 4
+
+the static file (objects_summary) contains gameobject information from a Unity game and their properties and the frames file (keyframes) contains their movement data across frames 
+
+tell me what happens in this clip 
+describe to me like I am a blind person 
+
+do not go into technical details 
+no poetry 
+no dramatic descriptions 
+just plain words to say what happened 
+two paras 
+200 words max
+
+
+python trim_scene.py \
+  --static "../Data/Slime Rancher/worldGenerated_static.csv" \
+  --frames "../Data/Slime Rancher/worldGenerated_frames.csv" \
+  --movement-threshold 0.5 \
+  --vis-threshold 0.2 \
+  --keyframe-epsilon 0.15 \
+  --min-frame-gap 2 \
+  --top-k 200
+
+
+
+python trim_scene.py \
+  --static "../Data/Heli/HelicopterPhysics_static.csv" \
+  --frames "../Data/Heli/HelicopterPhysics_frames.csv" \
+  --movement-threshold 0.5 \
+  --vis-threshold 0.2 \
+  --keyframe-epsilon 0.15 \
+  --min-frame-gap 2 \
+  --top-k 200  
+
+
+
+
+python trim_scene_v2.py \
+  --static "../Data/Slime Rancher/worldGenerated_static.csv" \
+  --frames "../Data/Slime Rancher/worldGenerated_frames.csv" \
+  --movement-threshold 0.5 \
+  --vis-threshold 0.2 \
+  --keyframe-epsilon 0.15 \
+  --min-frame-gap 2 \
+  --frame-step 2 \
+  --top-k 200
+
+
+python trim_scene_v2.py \
+  --static "../Data/Heli/HelicopterPhysics_static.csv" \
+  --frames "../Data/Heli/HelicopterPhysics_frames.csv" \
+  --movement-threshold 0.5 \
+  --vis-threshold 0.2 \
+  --keyframe-epsilon 0.15 \
+  --min-frame-gap 2 \
+  --frame-step 2 \
+  --top-k 200
+
+
+python trim_scene_v2.py \
+  --static "../Data/Beat Saber/GameCore_static.csv" \
+  --frames "../Data/Beat Saber/GameCore_frames.csv" \
+  --movement-threshold 0.5 \
+  --vis-threshold 0.2 \
+  --keyframe-epsilon 0.15 \
+  --min-frame-gap 2 \
+  --frame-step 2 \
+  --top-k 200
+
+-------------------------------------
+
+python trim_scene_v3.py \
+  --static "../Data/Slime Rancher/worldGenerated_static.csv" \
+  --frames "../Data/Slime Rancher/worldGenerated_frames.csv" \
+  --movement-threshold 0.2 \
+  --vis-threshold 0.05 \
+  --top-k 300
+
+
+
+python trim_scene_v3.py \
+  --static "../Data/Heli/HelicopterPhysics_static.csv" \
+  --frames "../Data/Heli/HelicopterPhysics_frames.csv" \
+  --movement-threshold 0.2 \
+  --vis-threshold 0.05 \
+  --top-k 300
+
+-------------------------------------
+
+python trim_scene_v4.py \
+  --static "../Data/Heli/HelicopterPhysics_static.csv" \
+  --frames "../Data/Heli/HelicopterPhysics_frames.csv" \
+  --movement-threshold 0.2 \
+  --vis-threshold 0.05 \
+  --top-k 300
+
+
+python trim_scene_v4.py \
+  --static "../Data/Slime Rancher/worldGenerated_static.csv" \
+  --frames "../Data/Slime Rancher/worldGenerated_frames.csv" \
+  --movement-threshold 0.2 \
+  --vis-threshold 0.05 \
+  --top-k 300
+
+
+
+-------------------------------------
+
+python trim_scene_v8.py \
+  --static "../Data/Heli/HelicopterPhysics_static.csv" \
+  --frames "../Data/Heli/HelicopterPhysics_frames.csv" \
+  --movement-threshold 0.2 \
+  --vis-threshold 0.05 \
+  --top-k 200
+  
+
+python trim_scene_v6.py \
+  --static "../Data/Slime Rancher/worldGenerated_static.csv" \
+  --frames "../Data/Slime Rancher/worldGenerated_frames.csv" \
+  --movement-threshold 0.2 \
+  --vis-threshold 0.05 \
+  --top-k 200
+
+
+
+python trim_scene_v8.py \
+  --static "../Data/Beat Saber/GameCore_static.csv" \
+  --frames "../Data/Beat Saber/GameCore_frames.csv" \
+  --movement-threshold 0.2 \
+  --vis-threshold 0.05 \
+  --top-k 200
+
+
+python trim_scene_v6.py \
+  --static "../Data/Beat Saber/MainMenu_static.csv" \
+  --frames "../Data/Beat Saber/MainMenu_frames.csv" \
+  --movement-threshold 0.2 \
+  --vis-threshold 0.05 \
+  --top-k 200
+
+-------------------------------------
+
+
