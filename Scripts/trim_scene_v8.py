@@ -914,8 +914,13 @@ def main():
     move_mask = df["PathLength"] >= args.movement_threshold
     vis_mask = df["VisibilityRatio"] >= args.vis_threshold
     size_mask = df["RelativeSize"].isin(["large", "huge"])
-    keep_mask = move_mask | vis_mask | size_mask
+
+    # Drop UI-like elements regardless of motion/visibility
+    ui_mask = df["SemanticRole"] == "UIElement"
+
+    keep_mask = (move_mask | vis_mask | size_mask) & ~ui_mask
     df = df[keep_mask]
+
 
     if df.empty:
         print("No trajectories left after applying thresholds.")
