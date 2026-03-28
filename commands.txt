@@ -153,4 +153,9 @@ python trim_scene_v6.py \
 
 -------------------------------------
 
+python trim_scene_v8.py --static "../Data/Heli/HelicopterPhysics_static.csv" --frames "../Data/Heli/HelicopterPhysics_frames.csv" --movement-threshold 0.2 --vis-threshold 0.05 --top-k 200
 
+
+python trim_scene_v8.py --static "../Data/Beat Saber/GameCore_static.csv" --frames "../Data/Beat Saber/GameCore_frames.csv" --movement-threshold 0.2 --vis-threshold 0.05 --top-k 200
+
+new
